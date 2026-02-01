@@ -20,7 +20,7 @@ I've updated your configuration with:
 
 Your MongoDB URI should be:
 ```
-mongodb+srv://akashpratap585_db_user:cziJU2ZMlWiuNMN5@cluster0.9capcej.mongodb.net/InterviewPrepDB?retryWrites=true&w=majority
+mongodb+srv://YOUR_USERNAME:YOUR_PASSWORD@cluster0.xxxxx.mongodb.net/InterviewPrepDB?retryWrites=true&w=majority
 ```
 
 ✅ Includes database name: `InterviewPrepDB`
@@ -39,9 +39,9 @@ Make sure you have exactly these 5 variables:
 ```
 PORT=3000
 NODE_ENV=production
-MONGO_URI=mongodb+srv://akashpratap585_db_user:cziJU2ZMlWiuNMN5@cluster0.9capcej.mongodb.net/InterviewPrepDB?retryWrites=true&w=majority
-JWT_SECRET=MAX_SUPER_SECRET_KEY_88777997
-GEMINI_API_KEY=AIzaSyAxyaFa5gXZIci0Oq6nhv5qvO0JeXtQ3Io
+MONGO_URI=your_mongodb_atlas_connection_string_here
+JWT_SECRET=your_jwt_secret_key_here
+GEMINI_API_KEY=your_gemini_api_key_here
 ```
 
 ⚠️ **Make sure:**

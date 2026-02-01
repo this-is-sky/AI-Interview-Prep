@@ -25,9 +25,9 @@ Once deployed, go to **Variables** tab and add:
 
 ```
 PORT=3000
-GEMINI_API_KEY=AIzaSyAxyaFa5gXZIci0Oq6nhv5qvO0JeXtQ3Io
-MONGO_URI=mongodb://0.0.0.0/InterviewPrepDB
-JWT_SECRET=MAX_SUPER_SECRET_KEY_88777997
+GEMINI_API_KEY=your_gemini_api_key_here
+MONGO_URI=your_mongodb_connection_string_here
+JWT_SECRET=your_jwt_secret_key_here
 NODE_ENV=production
 ```
 
