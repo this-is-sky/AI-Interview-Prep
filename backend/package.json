@@ -6,8 +6,12 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "tsx watch src/server.ts",
-    "build": "tsc",
-    "start": "node dist/server.js"
+    "build": "tsc && echo 'Build complete'",
+    "start": "node dist/server.js",
+    "prebuild": "npm install"
+  },
+  "engines": {
+    "node": "18.x || 20.x || 22.x"
   },
   "keywords": [],
   "author": "",
