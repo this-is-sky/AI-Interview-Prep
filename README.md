@@ -59,7 +59,7 @@ Transform your interview preparation with personalized, AI-generated questions b
 
 ## 🚀 Live Demo
 
-Coming soon! Check back here for deployment links.
+Coming soon!
 
 ---
 
@@ -89,14 +89,6 @@ pdf-parse (Resume Parsing)
 multer (File Upload)
 ```
 
-### **Deployment**
-```
-Frontend: Vercel
-Backend: Railway
-Database: MongoDB Atlas
-API: Google Gemini AI
-```
-
 ---
 
 ## 📋 Table of Contents
@@ -106,7 +98,6 @@ API: Google Gemini AI
 - [Project Structure](#project-structure)
 - [API Documentation](#api-documentation)
 - [Environment Setup](#environment-setup)
-- [Deployment](#deployment)
 - [Features Deep Dive](#features-deep-dive)
 - [Troubleshooting](#troubleshooting)
 - [Contributing](#contributing)
@@ -180,7 +171,6 @@ AI-Interview-Prep/
 │   ├── package.json
 │   ├── tsconfig.json
 │   ├── .env.example
-│   └── Procfile                     # Railway deployment config
 │
 ├── 📂 frontend/
 │   ├── src/
@@ -213,10 +203,7 @@ AI-Interview-Prep/
 │   └── vite.config.ts
 │
 ├── README.md                        # This file
-├── DEPLOYMENT.md                    # Deployment guide
-├── PRODUCTION_DEPLOYMENT.md         # Production setup
 ├── .gitignore
-└── deploy.sh                        # Helper script
 ```
 
 ---
@@ -225,7 +212,6 @@ AI-Interview-Prep/
 
 ### Base URL
 - **Development**: `http://localhost:3000`
-- **Production**: See `PRODUCTION_DEPLOYMENT.md`
 
 ### Authentication Endpoints
 
@@ -450,19 +436,7 @@ VITE_API_URL=http://localhost:3000
 
 ---
 
-## 🚀 Deployment
 
-### Quick Deployment (Railway + Vercel)
-
-See **`PRODUCTION_DEPLOYMENT.md`** for step-by-step instructions with your credentials.
-
-**Cost**: FREE-$5/month
-**Time**: 15-20 minutes
-
-### Manual Deployment
-See **`DEPLOYMENT.md`** for detailed options.
-
----
 
 ## 🐛 Troubleshooting
 
@@ -613,7 +587,6 @@ This project is licensed under the MIT License - see LICENSE file for details.
 
 - Google Gemini AI for question generation
 - MongoDB for database
-- Vercel and Railway for hosting
 - React and Tailwind communities
 - All contributors and users
 
@@ -630,7 +603,6 @@ This project is licensed under the MIT License - see LICENSE file for details.
 - [ ] Performance comparison
 - [ ] Custom question types
 - [ ] Multi-language support
-- [ ] Enterprise deployment
 
 ---
 
