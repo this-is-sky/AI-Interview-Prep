@@ -1,0 +1,99 @@
+# Dependencies
+node_modules/
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Build outputs
+dist/
+build/
+*.tsbuildinfo
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+*.sublime-project
+*.sublime-workspace
+.vim/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+pnpm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Runtime data
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage
+coverage/
+.nyc_output/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Uploads (if storing locally)
+uploads/
+temp_uploads/
+
+# IDE specific
+.vscode/settings.json
+.vscode/extensions.json
+.vscode/launch.json
+
+# Node modules cache
+.npm/
+
+# Optional npm cache directory
+.npm
+
+# ESLint cache
+.eslintcache
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Vite
+.vite/
+
+# Testing
+.coverage
+.nyc_output/
+
+# Mac
+.AppleDouble
+.AppleDB
+._*
+
+# Windows
+ehthumbs.db
+Desktop.ini
+
+# Production build
+dist/
+build/
+out/
